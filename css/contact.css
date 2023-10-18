@@ -1,0 +1,68 @@
+.contact {
+  background: #212121;
+  padding: 120px 20px;
+}
+
+.contactContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+}
+
+.subtitleContact {
+  font-size: 7.5rem;
+  word-wrap: break-word;
+  line-height: 1;
+  text-transform: uppercase;
+  max-width: 4ch;
+  color: #000;
+}
+
+.contactText {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  max-width: 45ch;
+  margin-bottom: 60px;
+  color: #a3a3a3;
+
+}
+
+.contactText strong {
+  background: -webkit-linear-gradient(#008bf5, #0dfae3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (min-width: 600px) {
+  .contactContainer {
+    padding: 0;
+  }
+}
+
+.wrapper > * {
+  padding: 1em;
+}
+@media (min-width: 700px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+  }
+  .wrapper > * {
+    padding: 2em 2em;
+  }
+}
+
+.myContact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 2rem;
+  background: -webkit-linear-gradient(#008bf5, #0dfae3);
+}
+
+ion-icon {
+  color: #e8e8e8;
+}
+
